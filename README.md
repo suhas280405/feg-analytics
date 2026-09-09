@@ -43,8 +43,22 @@ imports and `fetch` over `file://`. That is what `serve.mjs` is for.
 
 ## Deploying
 
-It is a static site. Point Vercel (or any static host) at the repo root — no build
-command, no install step.
+**Live:** https://feganalytics.vercel.app
+
+It is a static site — no build command, no install step. To redeploy:
+
+```bash
+vercel --prod
+```
+
+Pushing to GitHub does **not** redeploy on its own: Vercel's GitHub App has not been
+granted access to this repo, so `vercel git connect` fails. Either run the command
+above after pushing, or connect the repo once under
+*Vercel → project → Settings → Git*, after which pushes deploy automatically.
+
+Note that the long per-deployment URL (`feganalytics-<hash>-…vercel.app`) is behind
+Vercel's deployment protection and will 302 to a login page. Share the short
+canonical domain above instead — that one is public.
 
 ---
 
