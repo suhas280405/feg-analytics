@@ -63,15 +63,27 @@
     font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.1em;
     color: var(--dim); padding: 0 8px; margin-bottom: 7px; font-weight: 600;
   }
-  .nav a {
+  .nav-item {
     display: flex; align-items: center; gap: 10px;
     padding: 9px 10px; border-radius: 6px; margin-bottom: 2px;
     color: var(--muted); text-decoration: none; font-size: 13.5px; font-weight: 500;
   }
-  .nav a .ico { width: 16px; text-align: center; opacity: 0.85; }
-  .nav a:hover { background: var(--surface-2); color: var(--text); }
-  .nav a.active { background: var(--surface-2); color: var(--text); }
-  .nav a.active .ico { color: var(--accent); }
+  .nav-item .ico { width: 16px; text-align: center; opacity: 0.85; flex: none; }
+  .nav-item .label { flex: 1; min-width: 0; }
+  a.nav-item:hover { background: var(--surface-2); color: var(--text); }
+  a.nav-item:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .nav-item.active { background: var(--surface-2); color: var(--text); }
+  .nav-item.active .ico { color: var(--accent); }
+  /* Marks a link that leaves this dashboard for the casino app. */
+  .nav-item .ext { font-size: 10px; color: var(--dim); flex: none; }
+  a.nav-item:hover .ext { color: var(--muted); }
+  /* Not yet built. Rendered as a span, so there is nothing to click. */
+  .nav-item.soon { color: var(--dim); opacity: 0.55; cursor: not-allowed; }
+  .nav-item .soon-tag {
+    font-size: 9.5px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--dim);
+    border: 1px solid var(--border); border-radius: 3px; padding: 1px 5px; flex: none;
+  }
 
   .sidebar-foot { margin-top: auto; padding: 0 8px; }
   .sim-badge {
@@ -268,27 +280,51 @@
 <div class="layout">
 
   <aside class="sidebar">
-    <div class="logo">
+    <!--
+      Game surfaces live in the companion casino app deployment. Every href
+      below was checked to return 200; anything not built yet is a <span>,
+      not a dead link — a nav item that looks clickable and does nothing is
+      worse than one that plainly says it is not ready.
+      Base URL: https://psk-casino-demo.vercel.app
+    -->
+    <a class="logo" href="https://psk-casino-demo.vercel.app/" style="text-decoration:none;color:inherit">
       <div class="logo-mark">P</div>
       <div class="logo-text">PSK Casino</div>
-    </div>
+    </a>
 
     <div>
       <div class="nav-group-label">Platform</div>
       <nav class="nav">
-        <a href="#"><span class="ico">🎰</span> Slots</a>
-        <a href="#"><span class="ico">🚀</span> Crash</a>
-        <a href="#"><span class="ico">♠</span> Live Casino</a>
-        <a href="#"><span class="ico">⚽</span> Sportsbook</a>
+        <a class="nav-item" href="https://psk-casino-demo.vercel.app/">
+          <span class="ico">🎰</span><span class="label">Slots</span><span class="ext">↗</span>
+        </a>
+        <a class="nav-item" href="https://psk-casino-demo.vercel.app/crash">
+          <span class="ico">🚀</span><span class="label">Crash</span><span class="ext">↗</span>
+        </a>
+        <a class="nav-item" href="https://psk-casino-demo.vercel.app/roulette">
+          <span class="ico">🎯</span><span class="label">Roulette</span><span class="ext">↗</span>
+        </a>
+        <span class="nav-item soon" title="Not built yet">
+          <span class="ico">♠</span><span class="label">Live Casino</span><span class="soon-tag">Soon</span>
+        </span>
+        <span class="nav-item soon" title="Not built yet">
+          <span class="ico">⚽</span><span class="label">Sportsbook</span><span class="soon-tag">Soon</span>
+        </span>
       </nav>
     </div>
 
     <div>
       <div class="nav-group-label">Insights</div>
       <nav class="nav">
-        <a href="#" class="active"><span class="ico">📊</span> Floor Analytics</a>
-        <a href="#"><span class="ico">🏆</span> Leaderboards</a>
-        <a href="#"><span class="ico">🎁</span> Promotions</a>
+        <span class="nav-item active" aria-current="page">
+          <span class="ico">📊</span><span class="label">Floor Analytics</span>
+        </span>
+        <a class="nav-item" href="https://psk-casino-demo.vercel.app/dashboard">
+          <span class="ico">📈</span><span class="label">Live Bets</span><span class="ext">↗</span>
+        </a>
+        <span class="nav-item soon" title="Not built yet">
+          <span class="ico">🏆</span><span class="label">Leaderboards</span><span class="soon-tag">Soon</span>
+        </span>
       </nav>
     </div>
 
