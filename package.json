@@ -1,0 +1,10 @@
+{
+  "name": "feg-analytics",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Live casino activity banner — a zero-dependency static site. Real game mix and hour-rhythm from PSK event logs; synthetic, clearly-labelled concurrent-player counts.",
+  "scripts": {
+    "test": "node test/testLiveCasinoMetrics.mjs"
+  }
+}

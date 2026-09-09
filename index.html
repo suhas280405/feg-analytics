@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PSK Casino — Live Floor Analytics</title>
+<style>
+  :root {
+    /* Surfaces — Stake-style deep navy */
+    --bg: #0f212e;
+    --surface: #1a2c38;
+    --surface-2: #213743;
+    --surface-3: #2f4553;
+    --border: #2a3f4f;
+
+    --text: #ffffff;
+    --muted: #b1bad3;
+    --dim: #7b8ba3;
+
+    /* UI chrome accent (not a data mark) */
+    --accent: #00e701;
+
+    /* Data marks — validated against --surface for the dark lightness band,
+       chroma floor, CVD separation and contrast. Do not hand-tweak these:
+       re-run scripts/validate_palette.js if they must change. */
+    --data-green: #0aa84c;
+    --data-blue: #1475e1;
+
+    --radius: 8px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body { height: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .layout { display: flex; min-height: 100vh; }
+
+  /* ---------------- sidebar ---------------- */
+  .sidebar {
+    width: 224px; flex: none;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 18px 12px;
+    display: flex; flex-direction: column; gap: 22px;
+  }
+  .logo { display: flex; align-items: center; gap: 9px; padding: 0 8px; }
+  .logo-mark {
+    width: 30px; height: 30px; border-radius: 7px;
+    background: var(--accent); color: #0b1a10;
+    display: grid; place-items: center; font-weight: 800; font-size: 15px;
+  }
+  .logo-text { font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
+  .nav-group-label {
+    font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--dim); padding: 0 8px; margin-bottom: 7px; font-weight: 600;
+  }
+  .nav a {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 10px; border-radius: 6px; margin-bottom: 2px;
+    color: var(--muted); text-decoration: none; font-size: 13.5px; font-weight: 500;
+  }
+  .nav a .ico { width: 16px; text-align: center; opacity: 0.85; }
+  .nav a:hover { background: var(--surface-2); color: var(--text); }
+  .nav a.active { background: var(--surface-2); color: var(--text); }
+  .nav a.active .ico { color: var(--accent); }
+
+  .sidebar-foot { margin-top: auto; padding: 0 8px; }
+  .sim-badge {
+    display: flex; gap: 8px; align-items: flex-start;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 7px; padding: 10px; font-size: 11px; line-height: 1.5; color: var(--muted);
+  }
+  .sim-badge b { color: var(--text); display: block; margin-bottom: 2px; font-size: 11.5px; }
+
+  /* ---------------- main ---------------- */
+  .main { flex: 1; min-width: 0; padding: 18px 24px 56px; }
+
+  .topbar {
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .topbar h1 { font-size: 19px; font-weight: 650; margin: 0; letter-spacing: -0.015em; }
+  .live-pill {
+    display: inline-flex; align-items: center; gap: 7px;
+    background: rgba(10,168,76,0.13); border: 1px solid rgba(10,168,76,0.35);
+    color: #4ade80; border-radius: 999px; padding: 4px 11px;
+    font-size: 11.5px; font-weight: 650; letter-spacing: 0.03em;
+  }
+  .topbar .clock { margin-left: auto; font-size: 12.5px; color: var(--dim); font-variant-numeric: tabular-nums; }
+
+  .pulse { position: relative; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  .pulse::after {
+    content: ""; position: absolute; inset: -4px; border-radius: 50%;
+    border: 1.5px solid var(--accent); animation: ring 2s ease-out infinite;
+  }
+  @keyframes ring {
+    0% { transform: scale(0.55); opacity: 0.85; }
+    100% { transform: scale(1.5); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .pulse::after { animation: none; opacity: 0.35; }
+    .banner-line { transition: none; }
+  }
+
+  /* ---------------- the live banner ---------------- */
+  .live-banner {
+    display: flex; align-items: center; gap: 16px;
+    background: linear-gradient(100deg, var(--surface-2) 0%, var(--surface) 60%);
+    border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: var(--radius); padding: 15px 20px; margin-bottom: 16px;
+    min-height: 70px;
+  }
+  .banner-body { flex: 1; min-width: 0; }
+  .banner-label {
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: #4ade80; margin-bottom: 4px;
+  }
+  .banner-line {
+    font-size: 20px; font-weight: 600; letter-spacing: -0.01em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    transition: opacity 240ms ease, transform 240ms ease;
+  }
+  .banner-line.swapping { opacity: 0; transform: translateY(-6px); }
+  .banner-line .count { color: var(--accent); font-variant-numeric: tabular-nums; }
+
+  /* ---------------- KPI tiles ---------------- */
+  .kpis {
+    display: grid; gap: 12px; margin-bottom: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  }
+  .kpi {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 14px 16px;
+  }
+  .kpi .label {
+    font-size: 11px; color: var(--dim); text-transform: uppercase;
+    letter-spacing: 0.07em; font-weight: 600; margin-bottom: 7px;
+  }
+  .kpi .value {
+    font-size: 26px; font-weight: 700; letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums; line-height: 1.05;
+  }
+  .kpi .sub { font-size: 11.5px; color: var(--dim); margin-top: 5px; }
+  .delta { font-weight: 650; font-variant-numeric: tabular-nums; }
+  .delta.up { color: #4ade80; }
+  .delta.down { color: #f2777a; }
+  .delta.flat { color: var(--dim); }
+
+  /* ---------------- cards ---------------- */
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px 18px;
+  }
+  .card-head {
+    display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px;
+  }
+  .card-head h2 { font-size: 14px; font-weight: 650; margin: 0; letter-spacing: -0.01em; }
+  .card-head .hint { font-size: 11.5px; color: var(--dim); }
+  .card-head .right { margin-left: auto; font-size: 11.5px; color: var(--dim); }
+
+  .cols { display: grid; gap: 12px; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); }
+  @media (max-width: 1000px) { .cols { grid-template-columns: 1fr; } }
+
+  /* ---------------- chart ---------------- */
+  .chart-wrap { position: relative; }
+  svg.chart { display: block; width: 100%; height: auto; overflow: visible; }
+  .grid-line { stroke: var(--surface-3); stroke-width: 1; opacity: 0.5; }
+  .axis-label { fill: var(--dim); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+  .crosshair { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.75; }
+
+  .tooltip {
+    position: absolute; pointer-events: none; z-index: 5;
+    background: #0b1922; border: 1px solid var(--surface-3);
+    border-radius: 6px; padding: 7px 10px; font-size: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.45); white-space: nowrap;
+    opacity: 0; transition: opacity 110ms ease;
+  }
+  .tooltip.on { opacity: 1; }
+  .tooltip .tt-v { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .tooltip .tt-t { color: var(--dim); font-size: 11px; margin-top: 1px; }
+
+  /* ---------------- table ---------------- */
+  .table-scroll { overflow-x: auto; margin: 0 -4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    text-align: left; font-size: 10.5px; text-transform: uppercase;
+    letter-spacing: 0.07em; color: var(--dim); font-weight: 600;
+    padding: 0 8px 9px; border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  thead th.num, tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tbody td { padding: 9px 8px; border-bottom: 1px solid rgba(42,63,79,0.5); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--surface-2); }
+  .rank { color: var(--dim); font-variant-numeric: tabular-nums; width: 22px; }
+  .game-cell { display: flex; align-items: center; gap: 9px; min-width: 0; }
+  .game-art {
+    width: 30px; height: 30px; border-radius: 5px; flex: none;
+    display: grid; place-items: center; font-size: 11px; font-weight: 800;
+    color: rgba(255,255,255,0.92); text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .game-name {
+    font-weight: 550; white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis; max-width: 210px;
+  }
+  .game-provider { font-size: 11px; color: var(--dim); }
+  .tag {
+    display: inline-block; padding: 2px 8px; border-radius: 4px;
+    background: var(--surface-2); border: 1px solid var(--border);
+    font-size: 11px; color: var(--muted); white-space: nowrap;
+  }
+  td .players { font-weight: 650; }
+  .spark { display: block; }
+
+  /* ---------------- category bars ---------------- */
+  .bars { display: flex; flex-direction: column; gap: 11px; }
+  .bar-row .bar-top {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 5px; font-size: 12.5px;
+  }
+  .bar-row .bar-name { color: var(--muted); }
+  .bar-row .bar-val { font-weight: 650; font-variant-numeric: tabular-nums; }
+  .bar-track { height: 7px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
+  .bar-fill {
+    height: 100%; background: var(--data-green);
+    border-radius: 4px; transition: width 500ms ease;
+  }
+
+  /* ---------------- feed ---------------- */
+  .feed { display: flex; flex-direction: column; gap: 0; }
+  .feed-row {
+    display: flex; align-items: center; gap: 9px; padding: 8px 0;
+    border-bottom: 1px solid rgba(42,63,79,0.5); font-size: 12.5px;
+  }
+  .feed-row:last-child { border-bottom: none; }
+  .feed-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--data-green); flex: none; }
+  .feed-text { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
+  .feed-text b { color: var(--text); font-weight: 600; }
+  .feed-time { font-size: 11px; color: var(--dim); font-variant-numeric: tabular-nums; flex: none; }
+  .feed-empty { color: var(--dim); font-size: 12.5px; padding: 10px 0; }
+
+  /* ---------------- provenance ---------------- */
+  .note {
+    margin-top: 14px; padding: 13px 16px; background: var(--surface);
+    border: 1px solid var(--border); border-left: 3px solid var(--surface-3);
+    border-radius: var(--radius); font-size: 12px; line-height: 1.65; color: var(--dim);
+  }
+  .note strong { color: var(--muted); font-weight: 650; }
+
+  .stack { display: flex; flex-direction: column; gap: 12px; }
+
+  @media (max-width: 820px) {
+    .sidebar { display: none; }
+    .main { padding: 14px 14px 40px; }
+    .banner-line { font-size: 15.5px; white-space: normal; }
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-mark">P</div>
+      <div class="logo-text">PSK Casino</div>
+    </div>
+
+    <div>
+      <div class="nav-group-label">Platform</div>
+      <nav class="nav">
+        <a href="#"><span class="ico">🎰</span> Slots</a>
+        <a href="#"><span class="ico">🚀</span> Crash</a>
+        <a href="#"><span class="ico">♠</span> Live Casino</a>
+        <a href="#"><span class="ico">⚽</span> Sportsbook</a>
+      </nav>
+    </div>
+
+    <div>
+      <div class="nav-group-label">Insights</div>
+      <nav class="nav">
+        <a href="#" class="active"><span class="ico">📊</span> Floor Analytics</a>
+        <a href="#"><span class="ico">🏆</span> Leaderboards</a>
+        <a href="#"><span class="ico">🎁</span> Promotions</a>
+      </nav>
+    </div>
+
+    <div class="sidebar-foot">
+      <div class="sim-badge">
+        <span>⚠️</span>
+        <div>
+          <b>Simulated figures</b>
+          Player counts are demo values, not real PSK data.
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <h1>Floor Analytics</h1>
+      <span class="live-pill"><span class="pulse"></span> LIVE</span>
+      <span class="clock" id="clock"></span>
+    </div>
+
+    <!-- The feature: live activity banner -->
+    <div class="live-banner">
+      <div class="banner-body">
+        <div class="banner-label">Live right now</div>
+        <div class="banner-line" id="bannerLine">Loading live activity…</div>
+      </div>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi">
+        <div class="label">Players online</div>
+        <div class="value" id="kpiOnline">—</div>
+        <div class="sub"><span class="delta" id="kpiOnlineDelta">—</span> vs 15 min ago</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Games in play</div>
+        <div class="value" id="kpiGames">—</div>
+        <div class="sub" id="kpiGamesSub">of — in the catalogue</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Busiest category</div>
+        <div class="value" id="kpiCategory">—</div>
+        <div class="sub" id="kpiCategorySub">—</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Peak today</div>
+        <div class="value" id="kpiPeak">—</div>
+        <div class="sub" id="kpiPeakSub">—</div>
+      </div>
+    </div>
+
+    <div class="stack">
+      <section class="card">
+        <div class="card-head">
+          <h2>Players online</h2>
+          <span class="hint">last 60 minutes</span>
+          <span class="right" id="chartRange"></span>
+        </div>
+        <div class="chart-wrap" id="chartWrap">
+          <svg class="chart" id="floorChart" viewBox="0 0 900 220" preserveAspectRatio="none"
+               role="img" aria-label="Players online over the last 60 minutes"></svg>
+          <div class="tooltip" id="chartTip"></div>
+        </div>
+      </section>
+
+      <div class="cols">
+        <section class="card">
+          <div class="card-head">
+            <h2>Most played right now</h2>
+            <span class="hint">busiest games on the floor</span>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Game</th>
+                  <th>Category</th>
+                  <th class="num">Players</th>
+                  <th class="num">Share</th>
+                  <th>Last 30 min</th>
+                </tr>
+              </thead>
+              <tbody id="gamesBody">
+                <tr><td colspan="6" style="color:var(--dim);padding:16px 8px">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <div class="stack">
+          <section class="card">
+            <div class="card-head"><h2>By category</h2></div>
+            <div class="bars" id="categoryBars"></div>
+          </section>
+
+          <section class="card">
+            <div class="card-head">
+              <h2>Live feed</h2>
+              <span class="hint">players joining games</span>
+            </div>
+            <div class="feed" id="feed">
+              <div class="feed-empty">Watching the floor…</div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="note" id="note"></div>
+  </main>
+</div>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6242 @@
+{
+  "generatedAt": "2026-09-09T02:40:58.714Z",
+  "disclaimer": "Game mix, relative popularity and hour-of-day rhythm are REAL, measured from a 31-day PSK casino event-log export covering a sample of top users. Any concurrent-player counts derived from this catalog are SYNTHETIC demo values scaled to production-like magnitudes — they are NOT real PSK figures.",
+  "sourceLaunchRows": 13682,
+  "hourWeights": [
+    0.9051308288261949,
+    0.6823563806461044,
+    0.5385177605613214,
+    0.3648589387516445,
+    0.33679286653997953,
+    0.47186083905861714,
+    0.48764800467767866,
+    0.9770501388685864,
+    1.1226428884665984,
+    0.9419675486040052,
+    1.3384008185937728,
+    1.055985966963894,
+    1.1314135360327437,
+    1.434877941821371,
+    1.3068264873556497,
+    1.0279198947522292,
+    1.2717438970910684,
+    1.3068264873556497,
+    1.2068411051015933,
+    1.1928080689957608,
+    1.3278760415143984,
+    1.2489402134190908,
+    1.2734980266042975,
+    1.0472153193977487
+  ],
+  "games": [
+    {
+      "gameName": "Sizzling Hot Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 708,
+      "share": 0.05174682064025727
+    },
+    {
+      "gameName": "40 Super Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 668,
+      "share": 0.04882327145154217
+    },
+    {
+      "gameName": "Royal Seven XXL RHFP",
+      "provider": "Gamomat",
+      "category": "Slots",
+      "launches": 506,
+      "share": 0.036982897237246015
+    },
+    {
+      "gameName": "Sugar Rush 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 483,
+      "share": 0.035301856453734834
+    },
+    {
+      "gameName": "Mega Fire Blaze: Wild Pistolero",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 465,
+      "share": 0.033986259318813036
+    },
+    {
+      "gameName": "Royal Seven XXL",
+      "provider": "Gamomat",
+      "category": "Slots",
+      "launches": 460,
+      "share": 0.03362081567022365
+    },
+    {
+      "gameName": "100 Power Hot Dice Edition Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 449,
+      "share": 0.032816839643326996
+    },
+    {
+      "gameName": "BlackJack MH",
+      "provider": "Playn Go",
+      "category": "Blackjack",
+      "launches": 435,
+      "share": 0.031793597427276714
+    },
+    {
+      "gameName": "100 Hot Wild",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 302,
+      "share": 0.022072796374799006
+    },
+    {
+      "gameName": "Pink Joker: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 268,
+      "share": 0.019587779564391172
+    },
+    {
+      "gameName": "Gates of Olympus Super Scatter",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 229,
+      "share": 0.016737319105393948
+    },
+    {
+      "gameName": "4 Crazy Cluckers",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 225,
+      "share": 0.01644496418652244
+    },
+    {
+      "gameName": "Black Clover Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 189,
+      "share": 0.013813769916678847
+    },
+    {
+      "gameName": "20 Super Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 178,
+      "share": 0.013009793889782196
+    },
+    {
+      "gameName": "40 Bulky Fruits Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 172,
+      "share": 0.01257126151147493
+    },
+    {
+      "gameName": "Gates of Olympus 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 156,
+      "share": 0.01140184183598889
+    },
+    {
+      "gameName": "4 Scarab Coins Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 152,
+      "share": 0.01110948691711738
+    },
+    {
+      "gameName": "40 Burning Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 149,
+      "share": 0.010890220727963747
+    },
+    {
+      "gameName": "Triple Meow Riches",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 144,
+      "share": 0.01052477707937436
+    },
+    {
+      "gameName": "Extra Stars",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 134,
+      "share": 0.009793889782195586
+    },
+    {
+      "gameName": "Cerberus Gold",
+      "provider": "Games Global",
+      "category": "Slots",
+      "launches": 133,
+      "share": 0.009720801052477707
+    },
+    {
+      "gameName": "Thunder Coins XXL: Multicoin",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 122,
+      "share": 0.008916825025581056
+    },
+    {
+      "gameName": "Diamond Plus - Valentine’s Edition",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 119,
+      "share": 0.008697558836427423
+    },
+    {
+      "gameName": "Shining Crown Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 119,
+      "share": 0.008697558836427423
+    },
+    {
+      "gameName": "Big Bass Bonanza",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 108,
+      "share": 0.00789358280953077
+    },
+    {
+      "gameName": "Burning Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 106,
+      "share": 0.007747405350095015
+    },
+    {
+      "gameName": "100 Burning Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 104,
+      "share": 0.00760122789065926
+    },
+    {
+      "gameName": "5 Dazzling Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 104,
+      "share": 0.00760122789065926
+    },
+    {
+      "gameName": "Diamond Plus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 102,
+      "share": 0.007455050431223505
+    },
+    {
+      "gameName": "Gates of Olympus",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 100,
+      "share": 0.00730887297178775
+    },
+    {
+      "gameName": "40 Burning Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 99,
+      "share": 0.007235784242069873
+    },
+    {
+      "gameName": "40 Super Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 98,
+      "share": 0.007162695512351995
+    },
+    {
+      "gameName": "Book of Ra Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 98,
+      "share": 0.007162695512351995
+    },
+    {
+      "gameName": "Joker Hot Reels",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 97,
+      "share": 0.007089606782634118
+    },
+    {
+      "gameName": "3 Luxor Pots: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 94,
+      "share": 0.006870340593480485
+    },
+    {
+      "gameName": "Cash Connection: Book of Ra",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 90,
+      "share": 0.006577985674608975
+    },
+    {
+      "gameName": "Diamond Plus Football Edition",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 90,
+      "share": 0.006577985674608975
+    },
+    {
+      "gameName": "100 Burning Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 88,
+      "share": 0.00643180821517322
+    },
+    {
+      "gameName": "Legacy of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 88,
+      "share": 0.00643180821517322
+    },
+    {
+      "gameName": "Rhino Coins: Hit the Bonus",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 85,
+      "share": 0.006212542026019588
+    },
+    {
+      "gameName": "Supercharged Clovers: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 79,
+      "share": 0.005774009647712323
+    },
+    {
+      "gameName": "Starlight Princess 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 78,
+      "share": 0.005700920917994445
+    },
+    {
+      "gameName": "40 Shining Crown Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 73,
+      "share": 0.005335477269405058
+    },
+    {
+      "gameName": "20 Dazzling Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 71,
+      "share": 0.005189299809969303
+    },
+    {
+      "gameName": "Sweet Alchemy 100",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 71,
+      "share": 0.005189299809969303
+    },
+    {
+      "gameName": "Rise of Olympus 100",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 70,
+      "share": 0.005116211080251425
+    },
+    {
+      "gameName": "Goal Goal Goal Cash Collect",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 66,
+      "share": 0.004823856161379915
+    },
+    {
+      "gameName": "Sparta Legend",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 66,
+      "share": 0.004823856161379915
+    },
+    {
+      "gameName": "Book of Ra Deluxe 10",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 65,
+      "share": 0.004750767431662038
+    },
+    {
+      "gameName": "Turbo Hot 100",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 65,
+      "share": 0.004750767431662038
+    },
+    {
+      "gameName": "40 Bulky Fruits Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 64,
+      "share": 0.00467767870194416
+    },
+    {
+      "gameName": "5 Fruits",
+      "provider": "Adell",
+      "category": "Slots",
+      "launches": 62,
+      "share": 0.004531501242508405
+    },
+    {
+      "gameName": "81 Multi Gold",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 62,
+      "share": 0.004531501242508405
+    },
+    {
+      "gameName": "Turbo Slots",
+      "provider": "Apollo",
+      "category": "Slots",
+      "launches": 62,
+      "share": 0.004531501242508405
+    },
+    {
+      "gameName": "5 Dazzling Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 61,
+      "share": 0.004458412512790528
+    },
+    {
+      "gameName": "20 Super Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 58,
+      "share": 0.004239146323636895
+    },
+    {
+      "gameName": "Oink Oink Oink",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 58,
+      "share": 0.004239146323636895
+    },
+    {
+      "gameName": "20 Burning Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 57,
+      "share": 0.004166057593919018
+    },
+    {
+      "gameName": "40 Shining Crown Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 57,
+      "share": 0.004166057593919018
+    },
+    {
+      "gameName": "PSK Hot 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 55,
+      "share": 0.004019880134483263
+    },
+    {
+      "gameName": "Multi Coins Pro",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 52,
+      "share": 0.00380061394532963
+    },
+    {
+      "gameName": "Power Stars",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 52,
+      "share": 0.00380061394532963
+    },
+    {
+      "gameName": "Starlight Princess",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 51,
+      "share": 0.0037275252156117526
+    },
+    {
+      "gameName": "100 Super Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 49,
+      "share": 0.0035813477561759976
+    },
+    {
+      "gameName": "Flaming Hot Extreme Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 48,
+      "share": 0.00350825902645812
+    },
+    {
+      "gameName": "10 Burning Heart",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 47,
+      "share": 0.0034351702967402426
+    },
+    {
+      "gameName": "Shining Crown",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 47,
+      "share": 0.0034351702967402426
+    },
+    {
+      "gameName": "Flaming Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 45,
+      "share": 0.0032889928373044876
+    },
+    {
+      "gameName": "100 Super Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 43,
+      "share": 0.0031428153778687326
+    },
+    {
+      "gameName": "Book of Spells 2",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 40,
+      "share": 0.0029235491887151
+    },
+    {
+      "gameName": "100 Super Hot Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 38,
+      "share": 0.002777371729279345
+    },
+    {
+      "gameName": "5 Burning Clover Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 37,
+      "share": 0.0027042829995614676
+    },
+    {
+      "gameName": "Cash Connection - Charming Lady",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 37,
+      "share": 0.0027042829995614676
+    },
+    {
+      "gameName": "100 Lucky Hat Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 36,
+      "share": 0.00263119426984359
+    },
+    {
+      "gameName": "5 Burning Heart Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 35,
+      "share": 0.0025581055401257126
+    },
+    {
+      "gameName": "100 Dazzling Cash Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "40 Burning Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "40 Zodiac Wheel Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "Atlantis: Cash Collect",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "Book of Ra Classic",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "Moon Princess Trinity",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "Wild 27",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 34,
+      "share": 0.002485016810407835
+    },
+    {
+      "gameName": "40 Burning Hot 6 Reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 33,
+      "share": 0.0024119280806899576
+    },
+    {
+      "gameName": "Big Bass Mission Fishin'",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 33,
+      "share": 0.0024119280806899576
+    },
+    {
+      "gameName": "Grand Junction: Golden Guns",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 33,
+      "share": 0.0024119280806899576
+    },
+    {
+      "gameName": "100 Dazzling Hot Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 31,
+      "share": 0.0022657506212542026
+    },
+    {
+      "gameName": "20 Burning Hot Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 30,
+      "share": 0.002192661891536325
+    },
+    {
+      "gameName": "5 Dazzling Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 30,
+      "share": 0.002192661891536325
+    },
+    {
+      "gameName": "Cash Connection - Golden Book Of Ra Linked",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 29,
+      "share": 0.0021195731618184476
+    },
+    {
+      "gameName": "Epic Crown 5",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 29,
+      "share": 0.0021195731618184476
+    },
+    {
+      "gameName": "Clover Charm: Hit the Bonus",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 28,
+      "share": 0.00204648443210057
+    },
+    {
+      "gameName": "40 Lucky King Extreme Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 27,
+      "share": 0.0019733957023826926
+    },
+    {
+      "gameName": "40 Burning Hot Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 26,
+      "share": 0.001900306972664815
+    },
+    {
+      "gameName": "Ice Bar 27",
+      "provider": "Kajot",
+      "category": "Slots",
+      "launches": 26,
+      "share": 0.001900306972664815
+    },
+    {
+      "gameName": "Moon Princess 100",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 26,
+      "share": 0.001900306972664815
+    },
+    {
+      "gameName": "Lord of the Ocean Magic",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 25,
+      "share": 0.0018272182429469376
+    },
+    {
+      "gameName": "Baa Baa Baa",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 23,
+      "share": 0.0016810407835111825
+    },
+    {
+      "gameName": "Book of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 23,
+      "share": 0.0016810407835111825
+    },
+    {
+      "gameName": "5 Great star",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 22,
+      "share": 0.001607952053793305
+    },
+    {
+      "gameName": "Golden Respin",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 22,
+      "share": 0.001607952053793305
+    },
+    {
+      "gameName": "Luz de Draco 100",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 22,
+      "share": 0.001607952053793305
+    },
+    {
+      "gameName": "Very Hot 5",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 22,
+      "share": 0.001607952053793305
+    },
+    {
+      "gameName": "Book of Ra Deluxe Buy Bonus",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 21,
+      "share": 0.0015348633240754275
+    },
+    {
+      "gameName": "100 Burning Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 20,
+      "share": 0.00146177459435755
+    },
+    {
+      "gameName": "Lucky Joker 40 Extra Gifts",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 20,
+      "share": 0.00146177459435755
+    },
+    {
+      "gameName": "10 Burning Power Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 19,
+      "share": 0.0013886858646396725
+    },
+    {
+      "gameName": "3 Witches Pots",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 19,
+      "share": 0.0013886858646396725
+    },
+    {
+      "gameName": "Book of Ra Deluxe 6",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 19,
+      "share": 0.0013886858646396725
+    },
+    {
+      "gameName": "Multi Coins",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 19,
+      "share": 0.0013886858646396725
+    },
+    {
+      "gameName": "40 Diamond Plus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 18,
+      "share": 0.001315597134921795
+    },
+    {
+      "gameName": "Golden Crown",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 18,
+      "share": 0.001315597134921795
+    },
+    {
+      "gameName": "10 Shining Diamond Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 17,
+      "share": 0.0012425084052039175
+    },
+    {
+      "gameName": "5 Burning Heart",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 17,
+      "share": 0.0012425084052039175
+    },
+    {
+      "gameName": "Fast Money",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 17,
+      "share": 0.0012425084052039175
+    },
+    {
+      "gameName": "Gates of Olympus Xmas 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 17,
+      "share": 0.0012425084052039175
+    },
+    {
+      "gameName": "Lumberjack 2",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 17,
+      "share": 0.0012425084052039175
+    },
+    {
+      "gameName": "100 Respin Star",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 16,
+      "share": 0.00116941967548604
+    },
+    {
+      "gameName": "100 Burning Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 15,
+      "share": 0.0010963309457681625
+    },
+    {
+      "gameName": "40 Bulky fruits 6 reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 15,
+      "share": 0.0010963309457681625
+    },
+    {
+      "gameName": "Mighty Heracle Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 15,
+      "share": 0.0010963309457681625
+    },
+    {
+      "gameName": "10 Burning Heart Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 14,
+      "share": 0.001023242216050285
+    },
+    {
+      "gameName": "40 Lucky Wilds Hot Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 14,
+      "share": 0.001023242216050285
+    },
+    {
+      "gameName": "Flaming Hot Extreme Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 14,
+      "share": 0.001023242216050285
+    },
+    {
+      "gameName": "Legacy of Egypt",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 14,
+      "share": 0.001023242216050285
+    },
+    {
+      "gameName": "Zodiac Wheel",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 14,
+      "share": 0.001023242216050285
+    },
+    {
+      "gameName": "Flaming Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 13,
+      "share": 0.0009501534863324075
+    },
+    {
+      "gameName": "Shining Crown Cash Heat",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 13,
+      "share": 0.0009501534863324075
+    },
+    {
+      "gameName": "100 Art Of Gold",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 12,
+      "share": 0.00087706475661453
+    },
+    {
+      "gameName": "100 Bulky Fruits Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 12,
+      "share": 0.00087706475661453
+    },
+    {
+      "gameName": "40 Lucky Wilds Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 12,
+      "share": 0.00087706475661453
+    },
+    {
+      "gameName": "5 Hot Cash",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 12,
+      "share": 0.00087706475661453
+    },
+    {
+      "gameName": "Attractive Flirt 30",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 12,
+      "share": 0.00087706475661453
+    },
+    {
+      "gameName": "Supreme Cash Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 12,
+      "share": 0.00087706475661453
+    },
+    {
+      "gameName": "100 Bulky Dice Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "100 Cats",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "40 Power Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "40 Shining Roll Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "5 Stones",
+      "provider": "Adell",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Book of Ra Magic",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Exquisite Wealth Cash Heat Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Joker Triple Double",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Lucky Joker 100 Extra Gifts",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Mega Carp Caramba",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Panda's Gold Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "Plinko",
+      "provider": "Gaming Corps",
+      "category": "Slots",
+      "launches": 11,
+      "share": 0.0008039760268966525
+    },
+    {
+      "gameName": "100 Super Hot Clover Chance 6 reels",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 10,
+      "share": 0.000730887297178775
+    },
+    {
+      "gameName": "20 Glossy Hot Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 10,
+      "share": 0.000730887297178775
+    },
+    {
+      "gameName": "Bigger Bass Bonanza",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 10,
+      "share": 0.000730887297178775
+    },
+    {
+      "gameName": "Cash Tank",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 10,
+      "share": 0.000730887297178775
+    },
+    {
+      "gameName": "Mythical Treasure",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 10,
+      "share": 0.000730887297178775
+    },
+    {
+      "gameName": "100 Power Hot Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "40 Mystic Gem",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "50 Hot Blast",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Book of Shining Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Diamonds Power: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Kingdom of Atlantis Jackpot Play",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Lucky Lady's Charm Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Oink Oink Oink: Pharaohs",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Onyx Auto Roulette",
+      "provider": "Amusnet",
+      "category": "Roulette",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "Rainbowmania",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 9,
+      "share": 0.0006577985674608975
+    },
+    {
+      "gameName": "40 Wild Hot Spin",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "African Gods",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Age of The Gods",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Beasts Joy 30",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Big Bass Bonanza 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Book Of Spells",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Diamond Rush Express",
+      "provider": "Games Global",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Epic Crown 10",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Joker Party 6",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Multiplay 81",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Red Fate 10",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Rockin' Joker: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Savanna Sunrise Deluxe",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Very Hot 5 Extreme",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "Virtual Roulette",
+      "provider": "Amusnet",
+      "category": "Roulette",
+      "launches": 8,
+      "share": 0.00058470983774302
+    },
+    {
+      "gameName": "100 Extra Crown",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "40 Burning Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Big Bass Boxing Bonus Round",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Book Of Adventure",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Bulky Fruits Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Dragons Chance",
+      "provider": "BF Games",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Gold Trio Zones",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Lucky Joker 50",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Lucky Streak 3",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Sugar Rush",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Sweet Bonanza 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "The Dog House Megaways",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Vampire Night Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "Wolf & Crown",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 7,
+      "share": 0.0005116211080251425
+    },
+    {
+      "gameName": "100 Extra Crown 6 Reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "100 Golden Coins: Reel Fishing",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "20 Extra Crown",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "40 Burning Hot Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "40 Charming Joker Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "5 Heroes",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "9 Burning Dragons",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Bear Buzz",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Blue Dolphin",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Cocktail Rush - Easter Edition",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Empire of Dead",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Frog Story",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Grace of Cleopatra",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Mars Power Spins",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "Panda Panda",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 6,
+      "share": 0.000438532378307265
+    },
+    {
+      "gameName": "10 Burning Clover Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "10 Crystal Wish Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "100 Bulky Fruits Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "20 Dazzling Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "20 Stars Ablaze",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "4 Pots Riches Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "40 Extra Crown 6 Reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "5 Diamond Plus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "5 Glossy hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "9 Coins Gold Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Amazons' Wonders",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Asian Palace",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Babylon Riches",
+      "provider": "Netent",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Book of Kings",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Book of Vampires",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Burning Hot Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Coin Strike 2: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Energy Joker Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Epic Clover 100",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Extra Crown Classic",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Fiery Slots",
+      "provider": "BF Games",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Fire Coins: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Flaming Stallion Blitz",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Fortune Spells",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Fruit Mania",
+      "provider": "Gamomat",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Goal Goal Goal Blackjack",
+      "provider": "Playtech",
+      "category": "Blackjack",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Hot 'n' Fruity",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Hot Chance",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Joker Boom + exclusive",
+      "provider": "Bellot",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Legion Gold and the Sphinx of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Lucky Lady's Charm Deluxe 6",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Plushie Peril",
+      "provider": "Indigo Magic",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Premium Blackjack Single Hand",
+      "provider": "Playtech",
+      "category": "Blackjack",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Reactoonz",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Red Hot 40",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Roaring Forties",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Royal Joker: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Royal Secrets",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Sugar Supreme Powernudge",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Summer Fortune",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Super Stepper",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Supreme Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Three Bandits Shoot 'n' Spin Bonus Buy",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Wild Fortune",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Wild Hood",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "Zeus vs Hades: Gods od War",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 5,
+      "share": 0.0003654436485893875
+    },
+    {
+      "gameName": "100 Shining Roll Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "100 Super Fruits Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "20 Burning Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "20 Coins",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "20 Golden Coins: Reel Fishing",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "20 Super Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "20 Super Roll Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "3 Mystic Lamps Buy Bonus",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "40 Bulky Dice Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "40 Crown Hit Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "40 Crown Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "40 Golden Coins: Reel Fishing",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "40 Super Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "40 Wild Fire 6",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "5 Extra Crown",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "5 Shining Roll Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Ape of Luck Gods & Kings Link Bell LInk",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Book Of Admiral",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Book Of Aztec",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Book of Realm Jumboways Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Burning Hot 6 Reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Cats Royal",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Chilli Respin",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Clover Strike: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Crown and Diamonds: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Desert Wealth Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Diamond Mystery Fortune Streaks",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Fiesta Fortune",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Fire Joker 100",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Flaming Hot Extreme",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Fruit Mania RHFP",
+      "provider": "Gamomat",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Golden Fate 1000",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Goood Heavens",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Hot Slot: 777 Cash Out Grand Gold Edition",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Infectious 5 xways",
+      "provider": "NoLimit City",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Joker 50 Deluxe",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Koi Gate",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Leprechaun Goes Wild",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Lion Gems 3 Pots: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Luckycapi Buy Bonus",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Mega Hot 10",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Mighty Fish Blue Marlin Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Mighty Wild Gorilla Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Mystic Fortune Deluxe",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Panda Pots",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Pyramid Riddles Cleopatra Jumboways Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Pyramid Riddles Osiris Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Ra's Reckoning",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Regal Spins 100",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Rise of Aztec Lock & Slingo (94)",
+      "provider": "Slingo",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Rise of Olympus Extreme",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Rise of Ra",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Secrets of Alchemy",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Sizzling Hot 6 Extra Gold",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Spinning Hot 5",
+      "provider": "XGames",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Sugar Duke Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Sugar Teddy x1000",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Summer Bliss",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Twin Spinner Sizzling Hot deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Versailles Gold",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "Xtra Hot",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 4,
+      "share": 0.00029235491887151
+    },
+    {
+      "gameName": "100 Golden Coins",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "12 Zodiacs",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "20 Burning Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "20 Extra Crown - Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "20 Pirate Bombs",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "20 Super Fruits Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "25 Coins Grand Gold Edition",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "3 Magic Lamps: Hold and win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "30 Spicy Fruits",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "40 Cash Bells",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "40 Power Hot Dice Edition Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "40 Super Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "40 Wild Clover",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "5 Burning Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "9 Lions: Hold the Jackpot",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "A Mummy Full of Wilds",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Age of the Gods: God of Storms 3",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Always Hot Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Amun Ascension",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Arcane Elements",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Art Of Gold 6 Reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Big Bad Wolf Cash Collect and Link",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Big Bass Bonanza Megaways",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Bikini island deluxe",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Bonus Road",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Book Of Dread",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Book Of Fortune",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Buffalo King Megaways",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Bulky Fruits",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Bumba Meu Boi Coin Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Chance Machine 20",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Charming Lady's Boom",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Clovers and Stars",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Diamond Link Mighty Elephant Win Ways 95%",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Dice Plus",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "El Dorado Rumble",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Emperor's Dream Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Fa Cai Shen",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Fenghuang",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Fire Blaze: Oink Oink Oink",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Flaming Bells: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Fortune Dogs",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Fruit Force",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Gold Gobblers",
+      "provider": "Oryx",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Golden Catch",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Hot 7 Deluxe",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Hot Scatter",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Inca Temple",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Joker's Jewels",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Lord of the Ocean",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Lucky Streak 27",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Majestic Megaways",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Mine Blown",
+      "provider": "Netent",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "More Energy Coins: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Mystery Joker",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Pandora's Treasure",
+      "provider": "Netent",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Pilgrim of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "PSK Bonanza 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Queen's Mystery",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Raging Waterfall Megaways",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Sahara Riches: Cash Collect Max",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Shining Boooom Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Shining Crown Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Space goonz",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Spin Till You Win Roulette",
+      "provider": "Playtech",
+      "category": "Roulette",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Spinning crown",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "SugarVille Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Super 20",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Supra Hot",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Taiko Beats",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "The Dead Escape",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "The Dog House",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Totem Towers",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Turbo Stars 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Ultimate Fruits Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Ultra Hot Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Vampire Beast",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Vampire Night Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Very Hot 40 Extreme",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Viking Runecraft",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Wild Joker 50",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Wild Wild Joker",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Winning Clover 5 Extreme",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "Xtreme Fire Blaze Roulette",
+      "provider": "Playtech",
+      "category": "Roulette",
+      "launches": 3,
+      "share": 0.0002192661891536325
+    },
+    {
+      "gameName": "10 Super Power Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "100 Extra Crown - Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "100 Super Roll Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "100 Wild Fire",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "20 Bulky Fruits",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "20 Bulky Fruits Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "20 Glossy Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "20 Hot Twist",
+      "provider": "7 Mojos",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "20 Shining Roll Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "20 Wild Goals",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "27 Dice",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "3 Coin Cowboy",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "3 Pots Riches: Extra Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "4 Supercharged Clovers: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "40 Alebrijes Eternal",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "40 Extra Crown",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "40 Extra Crown - Buy Bonus",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "40 Extra Crown Classic Dice Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "40 Extra Crown Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "40 Leprechaun Hot Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "5 Dragon Hearts",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "5 Lucky Lions",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "5 Mariachis",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "50 Extreme Hot",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "81 Vegas Music",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Adamant Bang 50",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Age of the Gods Gold Trio",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "All Ways Hotter Fruits",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Amazing Amazonia",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Amazing Link Zeus Boost",
+      "provider": "Games Global",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Amazing Stars",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Amazon's Battle",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Aztec Rush Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Big Bass Amazon Extreme",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Bird of Thunder",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book Of Adventure - Death",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book of Aztec Bonus Buy",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book of Gold: Classic",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book of Lady",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book Of Montezuma",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book of Ra deluxe: Win Ways",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Book of Shining Hot Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Brilliant Pots Fortune Flows",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Burning Eye Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Burning Wild",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Capitano Galliano",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Cat Wilde and the Pyramids of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Charge the Clovers: Hit the Bonus",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Cherry Trio",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Classic Lucky Spin",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Coin strike: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Dead or Alive 2: Feature Buy",
+      "provider": "Netent",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Diamond Mystery: 20 Imperial crown deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Divine Wine",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Dolphin's Pearl",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Dragon Blitz",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Dragon Castle",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Dragon's Throne",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Enigma of Ellada",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Epic Clover 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Extra Crown",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Extremely Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Eye of Tut",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fa Cai Shen Deluxe",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fairy Queen",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fate of Dead Blitzways",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fiery 7s",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fire Hot 40 Jackpot Play",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fire Joker Blitz",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Forge of Fortunes",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fortune Parrot",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fortune Snake",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Four Divine Beasts",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Freebet Blackjack",
+      "provider": "XGames",
+      "category": "Blackjack",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "From Dusk Till Dawn",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Frozzy Fruits",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fruit Blaster",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fruitisima",
+      "provider": "Casimi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Fruits and Stars 20 Deluxe",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Full Moon White Thunder",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Full Moon: White King",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Gates of Hades",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Gigantoonz",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Gold",
+      "provider": "XGames",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Gold & Crystals",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Gold Rush",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Gold Trio: Leprechaun's Luck",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Golden Ticket",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Great 27",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Happy Ape",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Hook Up Joker",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Hot Crown Deluxe",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Hot Slot: 777 Rubies",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Hot Wild 20",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Hunter's Dream 2",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Hunter's Spirit",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Imperial Joker Diamond Rush",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Imperial Relics: Three Pots",
+      "provider": "Evoplay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Kemet's Treasures",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "King of Giza: Mega Cash Collect & Link",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Legion Gold",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Lolla's World",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Lost Book",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Lucky Joker 5",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Lucky Joker Twins",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Magic Oak",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Majestic Forest",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Megacity",
+      "provider": "BF Games",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Mermaid's Pearl",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Mongol Treasures",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Mr Bells 40",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Multi Chilli 81",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Mystery Reels",
+      "provider": "Red Tiger",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Oasis of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Ocean's Call",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Oink Oink Oink Astrosnouts",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Olympus Raging Megaways",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Pharaoh's Ring",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Piggy Mania",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Premium European Roulette",
+      "provider": "Playtech",
+      "category": "Roulette",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Prost!",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Queen of Coins",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Regal Spins 20 Sun Link",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Return of The Green Knight",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Rise of Olympus 1000",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Roulette HD",
+      "provider": "Fazi",
+      "category": "Roulette",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Rust and Riches",
+      "provider": "Gaming Corps",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Secrets of Cairo",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Sevens Joy",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Shining Crown Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Sparkling Joker X UP",
+      "provider": "Games Global",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Starlight Jackpots Mighty Mayans",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Sunny Wild",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Super Twister",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Sweet Bonanza Xmas",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "The Dog House - Muttley Crew",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "The Great Sevens",
+      "provider": "CT Interactive",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Tiki Tiki Boo Boo",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Triple Wild Seven",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Versailles Gold Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Very Hot 20",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Wicked Witch",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Wild Joker Hot",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Wild Sunburst",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Wisdom of Athena",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "Zodiac Wheel Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 2,
+      "share": 0.000146177459435755
+    },
+    {
+      "gameName": "10 Bulky Fruits",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "10 Crown Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "10 Glossy Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "10 Imperial Crown deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "20 Burning Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "20 Diamonds",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "20 Golden Coins - Christmas Edition",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "20 Joker Reels",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "243 Hot Ways",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "256 Frutas Grandes",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "27 Bonus Lines",
+      "provider": "Casimi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "27 Eternal hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "3 Card Brag",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "3 Carts of Gold: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "3 Chillies and Joker Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "3 Pirate Barrels: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "30 Coins Grand Gold Edition",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "30 Spinning 7's Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Hot & Cash",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Lucky King Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Luxury Dice",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Mega Clover",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Mega Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Mystic Gem Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Power Hot Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "40 Wenshi Lion",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "5 Lions Megaways",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "50 Amazons Battle",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "777 Sizzling Wins: 5 lines",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "81 Golden Fruit Rush",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "81 Joker Hot Reels",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Adamant Bang 20",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Age of Anubis",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Age of Pyramids",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Age of the Gods: Cash Collect",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Age of the Gods: Furious Four",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Age of the Gods: King of Olympus",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Age of the Gods: Spin A Win",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Almighty Ramses II",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Almighty Sparta",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Aloha Charm",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Amazing Joker",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Amazons Spear",
+      "provider": "CT Interactive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "American Joker Poker",
+      "provider": "XGames",
+      "category": "Poker",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ancient Dynasty",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ankh of Anubis",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Apollo God Of The Sun",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Argos Quest",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Art of Gold Golden Coins Link",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Attractive Flirt 50",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Aviator",
+      "provider": "Spribe",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Aztec Forest",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Azteca: Bonus Lines",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Bier O'Meter Dice",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Big Bad Bison",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Big Bass Bonanza: Keeping it Reel",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Big Show",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Biggy Winnie feat. The Rich One",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blackjack",
+      "provider": "Galaxsys",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blackjack Multihand",
+      "provider": "Gaming Corps",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blackjack Switch",
+      "provider": "XGames",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blackjack VIP",
+      "provider": "XGames",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blazing Bells 10",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blazing Coins 243",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blow Fruits 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blue Heart",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Blue Oceans",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Bombs Away",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Bonus Crown",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book Of Adventure - Life",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Fallen",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book Of Fruits",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Gods",
+      "provider": "BF Games",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Luxor Double",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Magic",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Oil",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Realm Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Book of Santa",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Bufona Alegre 10 Sun Link",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Burning Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cake Valley",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Candy Blitz",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Captain Xeno's Earth Adventure",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cash Collect Witches",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cash Connection: Sizzling Hot",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cashback Blackjack",
+      "provider": "Playtech",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cat Wilde and the Lost Chapter",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cave of Gold",
+      "provider": "BF Games",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Caveman and Dinosaurs",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Chance Machine 100",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Chilli Fruits",
+      "provider": "CT Interactive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Chilli Joker Double 5",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Circus Brilliant",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Cleopatra's kiss",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Clever Dollar",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Clover Islands",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Clover Respin Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Colossal Gems",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Coral Island",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Coyote Crash",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Crazy Jokers",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Crown of Fire Jackpot Play",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Crown Strike: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Crystal Hot 40 Max",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Crystal Skull",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Dead Night",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Destino Das Almas 96",
+      "provider": "Gaming Corps",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Diamond Desire",
+      "provider": "Indigo Magic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Diamond Link Mighty Sevens Win Ways 95%",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Diamonds of Egypt",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Dice Deco",
+      "provider": "Amusnet",
+      "category": "Dice",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Divina Commedia I Nove Cherci",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Doom of Egypt",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Drops of water",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Dynamite Fortunes",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Dynamite Riches Megaways",
+      "provider": "Red Tiger",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Egyptian Dreams",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Egyptian Dreams Deluxe",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "El Grande Toro",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Energy Coins: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Eternal Empress - Freeze Time",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "European Roulette",
+      "provider": "XGames",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Extra Joker 40",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Eye of Cleopatra",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Eye of the Queen",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fairy Gathering",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Faust",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fire Blaze: Blue Wizard Megaways",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fish Trio",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Flamenco Roses",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Flaming Fruit",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Flaming Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fly!",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Forest Band",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fortune Chests",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "French Roulette - En Prison",
+      "provider": "XGames",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Frontier Fortunes",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fruits Kingdom",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fruity Joker Hot",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fruity Win 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fruletta",
+      "provider": "Endorphina",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Fulong 88",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Game of Luck",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gangsters",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Garden of Riches",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gates of Hellfire",
+      "provider": "Gaming Corps",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Giga Hot 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gladiator Jackpot",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Glorious Alexander Gods & Kings Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Goal Goal Goal Roulette",
+      "provider": "Playtech",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gods Of Troy",
+      "provider": "Red Tiger",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gold Hit and Link: JP Bacon & Co",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gold Megaways",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gold Pile: Orangutan!",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Golden Ark",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Golden Crown 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Golden Explosion",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Golden Roulette",
+      "provider": "XGames",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Golden Sevens Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gorilla Cash Buy Bonus",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Gryphon's Gold Deluxe",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Halloween",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Happiest Christmas Tree",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Heart of the Frontier",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hell Hot 100",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hey Sushi",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hit Bar",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Honey Gems",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Honey Rush 100",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Coins: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Fruits 40 Extra Chillis",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Gems Cash Collect",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Hot Halloween",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Scatter Deluxe",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Slot 777 Cash out Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Hot Wild 40",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Indian Cash Catcher",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jackpot Bells",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jackpot Crown",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jawbreaker",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jingle Coins: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Joker Flip",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Joker Poker",
+      "provider": "XGames",
+      "category": "Poker",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Joker Stoker",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jugglenaut",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Juicy Fruits Sunshine Rich",
+      "provider": "Barbara Bang",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jump!",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Jurassic Island 2",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Kane's Inferno",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Karnak Treasure Clover Chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "King Richwin",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Knockout Football",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lady of Fortune",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Larry the Leprecahun Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Legacy of Gems Blitzways",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Legacy Of The Wild 2",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Legion Gold Unleashed",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Leprechaun Hot Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lil' Demon: Blazing Lava",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lion Gems: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lion Wheels",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "London Hunter",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Loony Blox",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lost in Giza 40",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Fish",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Fortune Cat",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Joker 10 Cash Spins",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Joker 20 Extra Gifts",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Lucky",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Streak 1000",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Lucky Tiger 1000",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Luxor Gold Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Magic 27",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Marvelous Furlongs",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Max Gold. Exploring the Unknown",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Max Megaways 2",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mayan's Battle",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mega Fire Blaze: 3 Wizards",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mega Fire Blaze: Big Circus!",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mega Fire Blaze: Legacy of the Tiger",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mega Fire Blaze: Roulette",
+      "provider": "Playtech",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mighty Wild Panther Diamond Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Millionaire",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Millionaire Rush",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mirror Joker",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mochimon",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Monkey 27",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "More Fresh Fruits",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Morgana Megaways",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mount Mazuma",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mustang Gold",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mystery of Eldorado",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mystic Desert Bell Link",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Mystic Jungle",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "New Years Bash",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Night Queen",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Nine to Five",
+      "provider": "NoLimit City",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Outsourced",
+      "provider": "NoLimit City",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ozzy Osbourne Video Slots",
+      "provider": "Netent",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Paddy's Pooches",
+      "provider": "Indigo Magic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Panda Money",
+      "provider": "Big Time Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pandastic Adventure",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pharaoh's Tomb",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pharaoh's Treasure Deluxe",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Piggy Power: Hit the Bonus",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pimped",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pirate Adventures",
+      "provider": "E-Gaming",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pirates",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Plenty of Fruit 40",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Potion of Madness",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Power of Gods Egypt",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Power of Sun Svarog Burning Board",
+      "provider": "Wazdan",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Premium American Roulette",
+      "provider": "Playtech",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Presto!",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Pumpkin Patch",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Punto Banco Baccarat",
+      "provider": "XGames",
+      "category": "Baccarat",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Quantum Blackjack Plus Instant Play",
+      "provider": "Playtech",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Queen Cleopatra",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rainbow Luck",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rapid Multi-Hand Blackjack with Rachael",
+      "provider": "Games Global",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Red Fate 100",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Red Fate 20",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Respin Crown",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Respin Joker 243",
+      "provider": "Synot",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Respin Queen 81",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Respin Santa",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Resurrecting Riches",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rich Wilde and the Shield of Athena",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ring of Fire XL",
+      "provider": "Kajot",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rise of Egypt",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rise of Merlin",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rise of Ra Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rise of Tut Magic Buy Bonus",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rolling Roger",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Roman Legion Deluxe",
+      "provider": "Gamomat",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Rot Stormo",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Royal Coins 2: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Royal Emirates",
+      "provider": "Barbara Bang",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Royal Gems",
+      "provider": "GameArt",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Royal Secrets Clover chance",
+      "provider": "EGT Digital",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ruffled Up",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Sam's Play",
+      "provider": "Pateplay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Santa's Presents",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Savannah King",
+      "provider": "Tom Horn",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Savannah Stacks",
+      "provider": "Gaming Corps",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Scroll of Dead",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Shark Hunter",
+      "provider": "Atomic Slot Lab",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Shield of Sparta",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Shining Hot 100",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Shining Hot 20 Jackpot play",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Shining Hot 5 Jackpot Play",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Slingo Journey to Asgard",
+      "provider": "Slingo",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Slingo Thunder of the Gods",
+      "provider": "Slingo",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Smoking Hot 7's",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Solar Eclipse: Desert Treasure",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Sparta",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Special Fruits",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Stars Inferno",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Sticky Tell",
+      "provider": "Tech4Bet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Storm Roulette",
+      "provider": "XGames",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Sugar Glider",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Sunny Fruits: Hold and Win",
+      "provider": "Playson",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Super Joker 40 Exclusive",
+      "provider": "Bellot",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Super Spin Blast 81",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Sweet Bonanza",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Taberna De Los Muertos",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Taberna De Los Muertos Ultra",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Techno Tumble",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Dog House - Dog or Alive",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Faces of Freya",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Green Knight",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Hand of Midas",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Khan Mega Fire Blaze",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Nutcracker",
+      "provider": "iSoft",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Racaroon",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Shimmering Woods",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "The Sweetest: Cash Collect",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Thunder Sic Bo",
+      "provider": "XGames",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Tomb of Gold II",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Tome of Madness",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Toxic Haze",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Treasures of Kongar",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Trinity Treasures  Wukong Buy Bonus",
+      "provider": "Greentube",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Triple Wild",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Tropical Pop Jackpot Play",
+      "provider": "PragmaticPlay",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ultimate Blazing Hot",
+      "provider": "Barbara Bang",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Ultimate Hot",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Vampire Night",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Vegas Blackjack!",
+      "provider": "Playtech",
+      "category": "Blackjack",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Vegas Roulette 500x",
+      "provider": "Amusnet",
+      "category": "Roulette",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Venezia D'oro",
+      "provider": "Amusnet",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Very Hot 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Very Hot 40 Respin",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Viking Runecraft 100",
+      "provider": "Playn Go",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Vintage Fruits 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Crusade: Empire Treasures",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Hot 40",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Hot 40 Free Spins",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Lava",
+      "provider": "Playtech",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Lucky Clover",
+      "provider": "Fazi",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Stars",
+      "provider": "Amatic",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Streak",
+      "provider": "Endorphina",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wild Trucks",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Wizards Want War",
+      "provider": "Habanero",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "World of Glory",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    },
+    {
+      "gameName": "Xtreme Fruit 40",
+      "provider": "Tech4bet exclusive",
+      "category": "Slots",
+      "launches": 1,
+      "share": 0.0000730887297178775
+    }
+  ]
+}
