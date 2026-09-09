@@ -13,6 +13,7 @@
 import {
   getLiveCasinoActivity,
   getGamePlayersAt,
+  getPlayersForShare,
   getFloorHistory,
   PEAK_CONCURRENT_PLAYERS,
 } from "../lib/liveCasinoMetrics.js";
@@ -257,6 +258,42 @@ check(
 check(
   "an unknown game reads as nobody playing rather than throwing",
   getGamePlayersAt(CATALOG, "No Such Game", BUSY, OPTS) === 0,
+);
+
+console.log("\n--- declared-share lookup (games with no measured history) ---");
+
+// The companion app's own games (Crash, Roulette, Slots) postdate the PSK
+// export, so they have no measured share. They still have to behave exactly
+// like catalogued games — same floor, same smooth drift — so both paths run
+// through one implementation.
+check(
+  "a catalogued game's own share reproduces its catalogued count exactly",
+  getPlayersForShare(CATALOG, headline.gameName, headline.share ?? 0.052, BUSY, OPTS) ===
+    getGamePlayersAt(CATALOG, headline.gameName, BUSY, OPTS),
+  `share-path=${getPlayersForShare(CATALOG, headline.gameName, 0.052, BUSY, OPTS)} catalog-path=${getGamePlayersAt(CATALOG, headline.gameName, BUSY, OPTS)}`,
+);
+check(
+  "a bigger declared share means more players",
+  getPlayersForShare(CATALOG, "Crash", 0.04, BUSY, OPTS) >
+    getPlayersForShare(CATALOG, "Crash", 0.01, BUSY, OPTS),
+);
+check(
+  "it drifts smoothly rather than being re-rolled",
+  (() => {
+    let worst = 0;
+    let prev = null;
+    for (let t = 0; t < 60; t++) {
+      const v = getPlayersForShare(CATALOG, "Crash", 0.04, BUSY + t * 3000, OPTS);
+      if (prev !== null) worst = Math.max(worst, Math.abs(v - prev) / Math.max(prev, 1));
+      prev = v;
+    }
+    return worst > 0 && worst < 0.15;
+  })(),
+);
+check(
+  "it follows the same daily rhythm as the rest of the floor",
+  getPlayersForShare(CATALOG, "Crash", 0.04, QUIET, OPTS) <
+    getPlayersForShare(CATALOG, "Crash", 0.04, BUSY, OPTS),
 );
 
 console.log("\n--- floor history (drives the players-online chart) ---");

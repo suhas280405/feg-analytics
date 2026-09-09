@@ -13,10 +13,50 @@
 import {
   getLiveCasinoActivity,
   getGamePlayersAt,
+  getPlayersForShare,
   getFloorHistory,
   buildBannerLine,
   formatCount,
 } from "./lib/liveCasinoMetrics.js";
+
+// ---------------------------------------------------------------------------
+// Game grid configuration
+//
+// PORTING NOTE (for the mobile app): everything below is presentation. The only
+// numbers that matter come from two calls —
+//   getGamePlayersAt(catalog, gameName, nowMs)          for catalogued games
+//   getPlayersForShare(catalog, key, share, nowMs)      for the app's own games
+// Both return a plain integer. Render it however the platform likes; the engine
+// module is dependency-free and runs unchanged in any JS runtime.
+// ---------------------------------------------------------------------------
+
+const CASINO_APP = "https://psk-casino-demo.vercel.app";
+
+/**
+ * The companion app's own games. These postdate the PSK export, so they have no
+ * measured share — the values below are declared, and are the only numbers in
+ * this project not derived from the event logs. They drive the same drift maths
+ * as every catalogued game.
+ */
+const PSK_ORIGINALS = [
+  { gameName: "Crash", provider: "PSK Originals", share: 0.042, href: `${CASINO_APP}/crash` },
+  { gameName: "Slots", provider: "PSK Originals", share: 0.036, href: `${CASINO_APP}/` },
+  { gameName: "Roulette", provider: "PSK Originals", share: 0.027, href: `${CASINO_APP}/roulette` },
+];
+
+const TILES_PER_ROW = 8;
+
+/**
+ * Rows are built by popularity, not by category — because the measured data
+ * will not honestly fill a category row. PSK's floor is 93% slots: only two
+ * non-slots games draw more than ten players, so a "Table Games" row would
+ * read 130, 3, 2, 1 and look broken rather than quiet. Ranking instead keeps
+ * every tile healthy, and the table and dice leaders still surface on their
+ * own merit (they rank 7th and 8th).
+ */
+const ROW_SIZE_MIN = 3;
+/** Below this share a tile can round to nobody at quiet hours. Never show one. */
+const MIN_TILE_SHARE = 0.004;
 
 const POLL_MS = 3000;
 const ROTATE_MS = 4500;
@@ -39,6 +79,11 @@ const gamesBodyEl = el("gamesBody");
 const categoryBarsEl = el("categoryBars");
 const feedEl = el("feed");
 const noteEl = el("note");
+const gameRowsEl = el("gameRows");
+const gamesShownEl = el("gamesShown");
+
+/** Which games each grid row is currently showing, by row title. */
+let gameRowsShown = {};
 
 let catalog = null;
 let bannerIndex = 0;
@@ -335,6 +380,94 @@ function updateFeed(activity) {
 }
 
 // ---------------------------------------------------------------------------
+// Game grid
+// ---------------------------------------------------------------------------
+
+/** Tracks each tile's count element so ticks update text in place, never re-render. */
+const tileCountIndex = new Map();
+
+function tileMarkup(game, { href } = {}) {
+  const art =
+    `<div class="g-name">${escapeHtml(game.gameName)}</div>` +
+    `<div class="g-prov">${escapeHtml(game.provider)}</div>` +
+    (href ? '<span class="g-play-tag">PLAY</span>' : "");
+
+  // A link only where a real game exists to open. Everything else is a plain
+  // div, so there is nothing to click and nothing that pretends to be clickable.
+  const artEl = href
+    ? `<a class="g-art" href="${href}" style="background:${gradientFor(game.gameName)}">${art}</a>`
+    : `<div class="g-art" style="background:${gradientFor(game.gameName)}">${art}</div>`;
+
+  return `<div class="g-tile">
+      ${artEl}
+      <div class="g-count"><span class="g-dot"></span><b data-count="${escapeHtml(game.gameName)}">0</b> playing</div>
+    </div>`;
+}
+
+function rowMarkup(icon, title, tiles) {
+  return `<div class="game-row">
+      <div class="row-head">
+        <span class="r-ico">${icon}</span>
+        <h3>${escapeHtml(title)}</h3>
+        <span class="chev">›</span>
+        <span class="r-total" data-rowtotal="${escapeHtml(title)}"></span>
+      </div>
+      <div class="tile-row">${tiles}</div>
+    </div>`;
+}
+
+function buildGameRows() {
+  // Catalogue order is by real popularity, so membership stays stable between
+  // ticks — tiles must not shuffle under the cursor every three seconds.
+  const ranked = catalog.games.filter((g) => g.share >= MIN_TILE_SHARE);
+
+  const rows = [
+    { icon: "🎲", title: "PSK Originals", games: PSK_ORIGINALS, playable: true },
+    { icon: "🔥", title: "Trending now", games: ranked.slice(0, TILES_PER_ROW) },
+    { icon: "🎰", title: "Popular", games: ranked.slice(TILES_PER_ROW, TILES_PER_ROW * 2) },
+  ].filter((row) => row.games.length >= ROW_SIZE_MIN);
+
+  gameRowsEl.innerHTML = rows
+    .map((row) =>
+      rowMarkup(
+        row.icon,
+        row.title,
+        row.games.map((g) => tileMarkup(g, row.playable ? { href: g.href } : {})).join(""),
+      ),
+    )
+    .join("");
+
+  tileCountIndex.clear();
+  for (const node of gameRowsEl.querySelectorAll("[data-count]")) {
+    tileCountIndex.set(node.getAttribute("data-count"), node);
+  }
+
+  gameRowsShown = Object.fromEntries(rows.map((row) => [row.title, row.games]));
+}
+
+function updateGameRows(nowMs) {
+  if (tileCountIndex.size === 0) return;
+
+  for (const [title, games] of Object.entries(gameRowsShown)) {
+    let rowTotal = 0;
+    for (const game of games) {
+      // Catalogued games look their share up; the app's own games carry a
+      // declared one. Both go through the same engine maths.
+      const players =
+        game.share !== undefined && game.href !== undefined
+          ? getPlayersForShare(catalog, game.gameName, game.share, nowMs)
+          : getGamePlayersAt(catalog, game.gameName, nowMs);
+
+      rowTotal += players;
+      const node = tileCountIndex.get(game.gameName);
+      if (node) node.textContent = formatCount(players);
+    }
+    const totalNode = gameRowsEl.querySelector(`[data-rowtotal="${CSS.escape(title)}"]`);
+    if (totalNode) totalNode.textContent = `${formatCount(rowTotal)} playing`;
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Banner
 // ---------------------------------------------------------------------------
 
@@ -376,6 +509,7 @@ function render() {
   renderTable(activity, nowMs);
   renderCategories(activity);
   updateFeed(activity);
+  updateGameRows(nowMs);
 
   clockEl.textContent = `Updated ${new Date().toLocaleTimeString()}`;
   chartRangeEl.textContent = `${timeOfDay(new Date(historyPoints[0].t))} — now`;
@@ -402,6 +536,8 @@ async function start() {
     `Concurrent-player counts are <strong>simulated demo values, not real PSK figures</strong> — the export samples ` +
     `top users only, so it carries the shape of play but not its true scale.`;
 
+  buildGameRows();
+  gamesShownEl.textContent = `${formatCount(catalog.games.length)} games in the catalogue`;
   bindChartHover();
   render();
   window.setInterval(render, POLL_MS);
